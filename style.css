@@ -1,0 +1,48 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.carusep__container{
+    width: 922px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.carusep__container img{
+    display: block;
+    width: 100%;
+}
+
+.corusel__slide{
+    display: flex;
+    height: 500px;
+}
+.btn{
+    color: rgba(255, 255, 255, 0.49);
+    padding: 10px;
+    background: none;
+    border-radius: 50%;
+    font-size: 55px;
+    outline: 0;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    top: 47%;
+}
+.btn-right{
+    right: 41%;
+}
+.btn-left{
+    left: 41%;
+}
+.transformAnimation{
+    transition: .4s all ease-in-out;
+}
+
+@media screen and (max-width: 922px){
+    .carusep__container{
+        width: 100%;
+    }
+}
